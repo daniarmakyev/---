@@ -1,0 +1,25 @@
+.body {
+    font-family: 'Roboto' ,
+        sans-serif !important;
+    font-size: 16px;
+    background-color: #fff;
+    color: #65665C;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container  {
+    max-width: 1310px !important;
+    padding: 0 15px;
+    margin: 0 auto;
+}
