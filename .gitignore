@@ -2,3 +2,4 @@ logs
 debug.log
 **/logs/debug.log
 cache
+.sass-cache
