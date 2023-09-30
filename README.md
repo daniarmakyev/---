@@ -43,7 +43,7 @@
     </header>
 
 ```
-![logo](img/header-button-md.png)
+![logo](img/header-pic-md.png)
 
 ## Команда проекта
 
