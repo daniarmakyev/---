@@ -45,10 +45,6 @@
 ```
 ![logo](img/header-pic-md.png)
 
-## Команда проекта
-
-
-- [Макыев Данияр] — Front-End developer
 
 ## Источники
 [Figma](https://www.figma.com/file/jQ4cfanZXfDBmsXOyDh6ol/Realco-project?type=design&node-id=8-62&mode=design&t=5bN43qYv8CAcgQSP-0)
