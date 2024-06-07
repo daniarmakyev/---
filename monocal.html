@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navigation pt-4 pb-4">
+                <div class="container-fluid">
+                    <a class="navbar-brand font-weight-bold text-wrap" href="#"><img class="logo" src="./img/logo.png" alt="">Архитектура
+                        информационно-вычислительных
+                        сетей</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav main-nav d-flex flex-wrap">
+                            <li class="nav-item">
+                                <a class="nav-link active me-5" aria-current="page" href="./index.html">Главная</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active me-5" aria-current="page" href="./pageOne.html">Типы и Структуры</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active me-5" aria-current="page" href="#manualchik">Подсети</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                            </li>
+                        </ul>
+    
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="comunist">
+        <div class="container">
+            <h1>
+                Моноканальные подсети
+            </h1>
+            <p>
+                
+Моноканалом является коммуникационная подсеть, в которой любой блок данных, переданный АС, достигает, с точностью
+задержки распространения в ней сигналов, одновременно всех
+8
+АС. Моноканал построен на основе общего канала, к которому
+через специальные устройства подключаются все абонентские
+системы сети (рис. 6).
+            </p>
+    
+            <img src="./img/photoSix.PNG" alt="">
+            <p>Принципиальным отличием моноканальных подсетей от
+                других является наличие только одного пути между любыми двумя абонентскими системами. Этот признак определяет три вида
+                топологии моноканала, представленные на рис. 7.</p>
+            <img src="./img/photoSeven.PNG" alt="">
+            <p>Моноканал состоит из двух частей: общего канала и его оконечных устройств – блоков доступа (БД), которые необходимы
+                для стыковки абонентских станций с моноканалом в точках его
+                интерфейса (рис. 8). Выбор физических средств, на основе которых строится моноканал, зависит от предъявляемых к нему
+                требований: скорости передачи сигналов; надежности работы;
+                стоимости.
+                Моноканалы делятся на 2 вида – физический и частотный.
+                В первом возможна одновременная передача только одного сигнала, а во втором за счет создания частотных полос одновременно передается группа сигналов: в каждой полосе по сигналу
+                9
+                (рис. 9). Физический моноканал используется в локальных компьютерных сетях, а на основе частотного моноканала работают
+                системы телерадиовещания, радиотелефонной связи.</p>
+                <img src="./img/photoEigth.PNG" alt="">
+                <p>Для повышения скорости передачи данных по физическому
+                    моноканалу применяются два подхода:
+                    • создание в одном моноканале нескольких общих каналов;
+                    • создание иерархии моноканалов.
+                    В первом случае производится передача информационных
+                    блоков по различным логическим каналам, организованным путём использования для передачи канальных сигналов различных
+                    временных интервалов, кодовых последовательностей, видов
+                    поляризации, а блоки доступа станций осуществляют селекцию
+                    10
+                    их и объединение в один общий информационный поток. Такой
+                    подход применяется, например, в системах спутниковой связи,
+                    цифровых системах мобильной радиотелефонной связи GSM и
+                    CDMA, системах абонентского доступа к сетям передачи данных
+                    на основе технологии xDSL.
+                    Построение иерархической структуры моноканалов широко
+                    применяется в локальных сетях. Такой подход позволяет путём
+                    использования ассоциативных систем разделить трафик относительно независимых групп пользователей, и таким образом существенно увеличить общую производительность сети. </p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <span class="float-start">© Realco by Minimal Square</span>
+            <ul class="list-unstyled d-inline-flex float-end">
+                <li class="me-3"><a href="#"><img src="img/facebook.png" alt=""></a></li>
+                <li class="me-3"><a href="#"><img src="img/insta.png" alt=""></a></li>
+                <li class="me-3"><a href="#"><img src="img/tiwtter.png" alt=""></a></li>
+                <li><a href="#"><img src="img/link.png" alt=""></a></li>
+            </ul>
+
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

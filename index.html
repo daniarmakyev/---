@@ -19,7 +19,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navigation pt-4 pb-4">
                 <div class="container-fluid">
-                    <a class="navbar-brand font-weight-bold" href="#">Архитектура
+                    <a class="navbar-brand font-weight-bold text-wrap" href="#"><img class="logo" src="./img/logo.png" alt="">Архитектура
                         информационно-вычислительных
                         сетей</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -27,15 +27,15 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav main-nav">
+                        <ul class="navbar-nav main-nav d-flex flex-wrap">
                             <li class="nav-item">
-                                <a class="nav-link active me-5" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active me-5" aria-current="page" href="./index.html">Главная</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active me-5" aria-current="page" href="#">Properties</a>
+                                <a class="nav-link active me-5" aria-current="page" href="./pageOne.html">Типы и Структуры</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active me-5" aria-current="page" href="#">About</a>
+                                <a class="nav-link active me-5" aria-current="page" href="#manualchik">Подсети</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Contact</a>
@@ -49,54 +49,62 @@
     </header>
 
     <div class="main-block d-lg-flex d-md-flex">
-        <div class="main-part1 d-inline-block">
-            <div class="container">
-                <h1 class="">Структура информационной сети</h1>
-                <p>
-                    Информационные сети создаются для выполнения прикладных задач пользователей. Сначала компьютеры работали автономно, но для решения множества задач потребовалось организовать их взаимодействие. Это должно было устранять дублирование оборудования и ресурсов, обеспечивать эффективный обмен данными и упрощать управление соединениями.
-                    
-                    Для этого были созданы два типа сетей: локальные и глобальные. Локальные сети (LAN) служат для объединения рабочих станций, принтеров и других устройств в пределах ограниченной территории, например, офиса. Они позволяют совместно использовать ресурсы, такие как базы данных и принтеры, обеспечивая постоянное подключение и высокую пропускную способность каналов связи. Локальные сети распространились повсеместно, появляясь в каждом отделе и учреждении. Однако каждая локальная сеть была отдельным "островом" без связи с другими сетями.
-                    
-                    Для передачи информации между разными локальными сетями были созданы глобальные сети (WAN). Глобальные сети объединяют локальные сети, обеспечивая связь между компьютерами, находящимися на большом расстоянии друг от друга. Это позволяет совместно использовать информацию и ресурсы, а также получать доступ к сети Интернет.</p>
+        <div class="container ms-auto me-auto d-md-flex">
+            <div class="main-part1 d-inline-block">
+                <div class="container">
+                    <h1 class="types">Типы информационных сетей: локальные и глобальные</h1>
+                    <p>
+                        Информационные сети создаются для выполнения прикладных задач пользователей. Сначала компьютеры работали автономно, но для решения множества задач потребовалось организовать их взаимодействие. Это должно было устранять дублирование оборудования и ресурсов, обеспечивать эффективный обмен данными и упрощать управление соединениями.
+                        
+                        Для этого были созданы два типа сетей: локальные и глобальные. Локальные сети (LAN) служат для объединения рабочих станций, принтеров и других устройств в пределах ограниченной территории, например, офиса. Они позволяют совместно использовать ресурсы, такие как базы данных и принтеры, обеспечивая постоянное подключение и высокую пропускную способность каналов связи. Локальные сети распространились повсеместно, появляясь в каждом отделе и учреждении. Однако каждая локальная сеть была отдельным "островом" без связи с другими сетями.
+                        
+                        Для передачи информации между разными локальными сетями были созданы глобальные сети (WAN). Глобальные сети объединяют локальные сети, обеспечивая связь между компьютерами, находящимися на большом расстоянии друг от друга. Это позволяет совместно использовать информацию и ресурсы, а также получать доступ к сети Интернет.</p>
+                </div>
             </div>
-        </div>
-        <div class="main-part2 ">
-            <img src="img/main-pic.jpg" alt="">
+            <div class="main-part2 ">
+                <img src="img/main-pic.jpg" alt="">
+            </div>
         </div>
     </div>
 
     <div class="manual-block">
-        <div class="container">
-            <h2 class="text-center">How it works</h2>
-            <p class="manual">Nunc laoreet consequat nunc at consequat. Praesent aliquam mi id efficitur pellentesque.
-                Maecenas varius
-                felis felis.</p>
+        <div class="container" id="manualchik">
+            <h2 class="text-center">Подсети</h2>
+            <p class="manual">Коммуникационные подсети - это сетевые структуры, предназначенные для передачи данных и обмена информацией между различными узлами (абонентскими системами) с использованием различных технологий и методов передачи данных, таких как кабели, беспроводные соединения и оптические волокна. Эти подсети обеспечивают связь и взаимодействие между различными компьютерами, устройствами и системами в рамках общей сетевой инфраструктуры.</p>
             <div class="cards d-flex flex-wrap">
                 <div class="me-2 ms-2 cd1">
-                    <div class="card-body column position-relative cd1">
+                    <div class="card-body column position-relative cd1 pb-3">
                         <img src="img/card1.svg" alt="" class="position-absolute">
-                        <h5 class="card-title text-center">Find property</h5>
-                        <p class="card-text">Odales mauris quis tellus facilisis, vel mattis magna interdum. Curabitur
-                            eget aliquam elit. In mauris purus, auctor a eleifend non.</p>
-                        <a href="#" class="card-link text-decoration-none">Read more ></a>
+                        <h5 class="card-title text-center">Коммуникационные подсети (КП)</h5>
+                        <p class="card-text">
+                            Коммуникационные подсети передают информацию между абонентскими системами через физические средства соединения и ассоциативные системы. Они включают комплексы физических средств соединения, такие как каналы передачи данных и оконечные устройства для подключения абонентов. Разнообразные типы подсетей включают в себя те, где информация передается всем системам сразу (моноканальные), или поочередно (циклические). Примеры подсетей с селекцией информации включают пейджинговые сети, управляющие каналы сотовой связи и трансляции по радио и телевидению.</p>
+                        <a href="./comunicaial.html" class="card-link ">Подробнее ></a>
                     </div>
                 </div>
                 <div class="me-2 ms-2">
-                    <div class="card-body column position-relative cd1">
+                    <div class="card-body column position-relative cd1 pb-3">
                         <img src="img/card2.svg" alt="" class="position-absolute">
-                        <h5 class="card-title text-center">Make a deal</h5>
-                        <p class="card-text">Odales mauris quis tellus facilisis, vel mattis magna interdum. Curabitur
-                            eget aliquam elit. In mauris purus, auctor a eleifend non.</p>
-                        <a href="#" class="card-link text-decoration-none">Read more ></a>
+                        <h5 class="card-title text-center">Моноканальные подсети</h5>
+                        <p class="card-text">Моноканальная подсеть передает данные всем ассоциативным системам одновременно, используя общий канал. Существуют физические и частотные моноканалы: физический передает один сигнал, а частотный - несколько сигналов через разные частотные полосы. Для увеличения скорости передачи данных в физическом моноканале создают несколько общих каналов с различными характеристиками. Также применяется иерархия моноканалов для разделения трафика и увеличения производительности сети, особенно в локальных сетях.</p>
+                        <a href="./monocal.html" class="card-link ">Подробнее ></a>
                     </div>
                 </div>
                 <div class="me-2 ms-2" style="max-width: 25rem;">
-                    <div class="card-body column position-relative cd1">
+                    <div class="card-body column position-relative cd1 pb-3">
                         <img src="img/card3.svg" alt="" class="position-absolute">
-                        <h5 class="card-title text-center">Get your keys</h5>
-                        <p class="card-text text-wrap">Odales mauris quis tellus facilisis, vel mattis magna interdum.
-                            Curabitur eget aliquam elit. In mauris purus, auctor a eleifend non.</p>
-                        <a href="#" class="card-link text-decoration-none">Read more ></a>
+                        <h5 class="card-title text-center">Циклические подсети</h5>
+                        <p class="card-text text-wrap">
+                            Циклическая подсеть использует кольцевой канал, в который включены абонентские системы. Простейшая топология - это простое циклическое кольцо, где каждый блок данных доставляется поочередно всем системам. Однако недостатком является ненадежность: разрыв кольца или сбой в блоке доступа приводит к прекращению работы. Для увеличения надежности используется топология с центральным коммутатором или двойное циклическое кольцо, повышающее скорость передачи и живучесть подсети. Эти подсети применяются в телефонных сетях и Интернете.</p>
+                        <a href="./circr.html" class="card-link ">Подробнее ></a>
+                    </div>
+                </div>
+                <div class="me-2 ms-2" style="max-width: 25rem;">
+                    <div class="card-body column position-relative cd1 pb-3">
+                        <img src="img/card3.svg" alt="" class="position-absolute">
+                        <h5 class="card-title text-center"> Узловые подсети</h5>
+                        <p class="card-text text-wrap">
+                            Узловые подсети отличаются от моноканальных и циклических сетей тем, что содержат множество различных каналов, связывающих узлы коммутации и абонентские системы. Каналы делятся на магистральные, соединяющие узлы, и абонентские, связывающие узел с абонентской системой. Телефонная сеть общего пользования - классический пример узловой подсети, где используются как аналоговые, так и цифровые каналы. Сеть Интернет также является узловой подсетью. Пользователи узловой подсети обращаются к абонентским каналам через абонентский интерфейс без прямого доступа к магистральным каналам.</p>
+                        <a href="./uzlovie.html" class="card-link ">Подробнее ></a>
                     </div>
                 </div>
             </div>
@@ -104,39 +112,19 @@
     </div>
 
     <div class="process-block ">
-        <div class="container">
-            <img src="img/main-pic2.png" alt="" class="float-start  me-5">
+        <div class="container d-flex gap-4 dura">
+            <img src="img/main-pic2.png" alt="" class="float-start bottom-pic mt-5 h-25">
             <div class="process-inner d-inline-flex flex-column">
-                <span class="text-nowrap">Quick and easy</span>
-                <h3>Fast forward process</h3>
-                <p class="text-wrap d-inline-block">Ut vitae nisi eu nisi maximus condimentum ac id purus.
-                    Duis sit amet mi
-                    arcu praesent nec felis nisl.</p>
+                <span class="text-nowrap">Модель OSI</span>
+                <h3 class="w-lg-50 w-md-50 arhci">Многоуровневая архитектура сетей</h3>
+                <p class="text-wrap d-inline-block">
+За последние два десятилетия произошел заметный рост глобальных сетей, что привело к повышенному вниманию к сетевым технологиям со стороны крупных организаций. Однако различные технологии и продукты, применяемые в сетях, привели к проблемам совместимости. Для решения этих проблем Международная организация по стандартизации (ISO) разработала модель взаимодействия открытых систем (OSI) в 1984 году.
+
+Архитектура сети представляет собой систему взаимосвязанных элементов, каждый из которых выполняет определенные функции, совместно решая задачи организации взаимодействия абонентских систем. Модель OSI стала международным стандартом и определила способ разбиения задачи взаимодействия "по вертикали". В рамках этой модели обсуждается открытость систем, позволяющая им взаимодействовать с другими системами в сети с использованием стандартных правил. Это обеспечивает возможность создания сетей из компонентов разных производителей, упрощает замену компонентов и обеспечивает простоту сопряжения сетей.
+
+Открытый характер стандартов и спецификаций важен для сетевых протоколов и функций различных устройств и программ, поскольку это позволяет легко взаимодействовать с продуктами разных производителей и упрощает работу сетей, строящихся на их основе.</p>
+<a href="./manyLevels.html" class="e ms-5">Подробнее ></a>
             </div>
-            <div class="process-columns d-flex flex-wrap mb-3">
-                <ul class="d-inline-flex list-unstyled flex-column prices me-5">
-                    <li class="pb-2">
-                        <h5 class="ms-3 d-inline-block">Affordable prices</h5>
-                    </li>
-                    <li>
-                        <p class="d-inline-block">Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Suspendisse
-                            varius enim in eros.</p>
-                    </li>
-                </ul>
-                <ul class="d-inline-flex list-unstyled flex-column paper-work">
-                    <li class="pb-2">
-                        <h5 class="ms-3 d-inline-block">Less paper work</h5>
-                    </li>
-                    <li>
-                        <p class="d-inline-block">Curabitur porta luctus semper donec eget lobortis leo
-                            ac finibus
-                            nisi.</p>
-                    </li>
-                </ul>
-            </div>
-            <button type="button" class="process-btn">Explore properties</button>
-            <a href="#" class="text-decoration-none ms-5">Contact agent ></a>
         </div>
     </div>
 
@@ -149,6 +137,7 @@
                 <li class="me-3"><a href="#"><img src="img/tiwtter.png" alt=""></a></li>
                 <li><a href="#"><img src="img/link.png" alt=""></a></li>
             </ul>
+
         </div>
     </footer>
 

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navigation pt-4 pb-4">
+                <div class="container-fluid">
+                    <a class="navbar-brand font-weight-bold text-wrap" href="#"><img class="logo" src="./img/logo.png" alt="">Архитектура
+                        информационно-вычислительных
+                        сетей</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav main-nav d-flex flex-wrap">
+                            <li class="nav-item">
+                                <a class="nav-link active me-5" aria-current="page" href="./index.html">Главная</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active me-5" aria-current="page" href="./pageOne.html">Типы и Структуры</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active me-5" aria-current="page" href="#manualchik">Подсети</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                            </li>
+                        </ul>
+    
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="comunist">
+        <div class="container">
+            <h1>
+                Коммуникационные подсети (КП)
+            </h1>
+            <p>
+                Коммуникационные подсети (КП)
+    Коммуникационная подсеть предназначена для передачи информации между большим числом абонентских систем и создается на основе стандартных компонентов (рис. 3):
+    – физических средств соединения (ФСС);
+    – ассоциативных систем (АС).
+    6
+    В состав коммуникационной подсети входят один или несколько комплексов фи зических средств соединений. В последнем случае они соединяются при помощи АС. Комплекс ФСС состоит из одного либо группы параллельно прокладываемых каналов передачи данных. ФСС имеют также оконечные устройства,
+    образующие интерфейсы для подключения к этим средствам абонентских систем. Одна из возможных структурных схем коммуникационной подсети показана на рис. 4.
+            </p>
+    
+            <img src="./img/photoThre.PNG" alt="">
+            <img src="./img/photoFour.PNG" alt="">
+            <p>Виды коммуникационных подсетей различаются способами
+                доставки информации конкретным адресатам. Их классификация
+                представлена на рис. 5. Коммуникационная подсеть с селекцией
+                7
+                информации характеризуется тем, что любой блок данных передается от одной системы-отправителя всем абонентским системам,
+                которые проверяют адрес его назначения. Система, которой адресован блок, принимает его, остальные отвергают этот блок. В результате происходит селекция информации. Примером таких сетей
+                являлись сети пейджинговой связи, а в настоящее время процедура
+                селекции информации используется в каналах управления базовых
+                станций сотовой связи. В сетях эфирного вещания и кабельного
+                телевидения также широко используется метод селекции информационных потоков, передаваемых в различных полосах частот.</p>
+                <img src="./img/photoFive.PNG" alt="">
+                <p>Подсети с селекцией информации делятся на две группы:
+                    моноканальные и циклические. Отличия между ними заключаются в следующем:
+                    – в моноканальной подсети каждый посланный блок данных
+                    попадает ко всем абонентским системам практически одновременно, с задержкой, не превышающей времени физического распространения сигнала между абонентскими станциями;
+                    – в циклической подсети блоки информации доставляются
+                    абонентским системам последовательно (по очереди), проходя
+                    мимо каждой из них.</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <span class="float-start">© Realco by Minimal Square</span>
+            <ul class="list-unstyled d-inline-flex float-end">
+                <li class="me-3"><a href="#"><img src="img/facebook.png" alt=""></a></li>
+                <li class="me-3"><a href="#"><img src="img/insta.png" alt=""></a></li>
+                <li class="me-3"><a href="#"><img src="img/tiwtter.png" alt=""></a></li>
+                <li><a href="#"><img src="img/link.png" alt=""></a></li>
+            </ul>
+
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navigation pt-4 pb-4">
+                <div class="container-fluid">
+                    <a class="navbar-brand font-weight-bold text-wrap" href="#"><img class="logo" src="./img/logo.png" alt="">Архитектура
+                        информационно-вычислительных
+                        сетей</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav main-nav d-flex flex-wrap">
+                            <li class="nav-item">
+                                <a class="nav-link active me-5" aria-current="page" href="./index.html">Главная</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active me-5" aria-current="page" href="./pageOne.html">Типы и Структуры</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active me-5" aria-current="page" href="#manualchik">Подсети</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                            </li>
+                        </ul>
+    
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="comunist">
+        <div class="container">
+            <h1>
+                Циклические подсети
+            </h1>
+            <p>
+                
+                Характерной особенностью циклической подсети является
+                кольцевой канал, в который, разделяя его на сегменты, включены абонентские системы. Простейшая топология циклической
+                подсети, получившая название простого циклического кольца,
+                представлена на рис. 10. Каждый блок данных последовательно,
+                по очереди, доставляется всем абонентским системам. Передача
+                информационных сигналов осуществляется в кольце циклами в
+                одном направлении через все блоки доступа. В каждом из них
+                передаваемый кадр задерживается побитно, для того чтобы соответствующая система могла прочесть адрес кадра, записать его
+                содержимое и сделать отметки в кадре.
+                Существенным недостатком такой топологии является его
+                ненадёжность. Разрыв кольца в любой точке либо авария в любом блоке доступа приводит к прекращению работы всей коммуникационной подсети. Устранить этот недостаток можно путем
+                построения коммуникационной подсети по топологии циклического кольца с центральным коммутатором (рис. 11). В этом
+                случае при обрывах в линиях передачи между центральным коммутатором и абонентской станцией либо при нарушении работы
+                её блока доступа неисправная ветвь кольца центральным коммутатором отключается, и подсеть продолжает работу без неё.
+                «Узким» местом в работе такой сети является сам центральный
+                коммутатор. Но обеспечить надёжную работу одного устройства
+                гораздо легче и дешевле, чем всей коммуникационной подсети.
+            </p>
+    
+            <img src="./img/photoNinee.PNG" alt="">
+            <p>Устранить этот недостаток удалось путём разработки топологии двойного циклического кольца, представленной на рис. 12.
+                За счёт использования второго кольца удалось увеличить не толь-
+                12
+                ко скорость передачи в коммуникационной подсети в два раза за
+                счёт одновременной передачи информации по обоим кольцам в
+                противоположных направлениях, но и «живучесть» подсети за
+                счёт возможности переконфигурирования сети в случае аварий
+                на любом участке или в узле доступа. В этом случае в узлах доступа станций, соседних с аварийным сегментом сети, производится его отключение путём соединения прямого и обратного
+                колец. Двойное кольцо в этом случае превращается в простое
+                циклическое, но коммуникационная подсеть продолжает свою
+                работу уже без аварийного сегмента.</p>
+            <img src="./img/photoTen.PNG" alt="">
+            <p>Топология двойного циклического кольца была использована при построении первой высокоскоростной магистральной
+                сети на основе волоконно-оптических линий связи, работавшей
+                со скоростью передачи 125 Мбит/с и получившей название Fiber
+                Distributed Digital interface (FDDI) – оптический цифровой распределённый интерфейс.
+                В коммуникационных подсетях с маршрутизацией информации передача данных осуществляется от одной абонентской
+                системы-отправителя к другой – получателю. Для доставки ин-
+                13
+                формации используются узлы коммутации, поэтому сеть называют узловой. В узлах коммутации осуществляется обработка
+                адресов назначения блоков данных, т. е. происходит их маршрутизация – прокладка через коммуникационную подсеть трактов,
+                связывающих абонентские системы. Наиболее типичными примерами таких подсетей являются телефонные сети связи общего
+                пользования и сеть Internet.</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <span class="float-start">© Realco by Minimal Square</span>
+            <ul class="list-unstyled d-inline-flex float-end">
+                <li class="me-3"><a href="#"><img src="img/facebook.png" alt=""></a></li>
+                <li class="me-3"><a href="#"><img src="img/insta.png" alt=""></a></li>
+                <li class="me-3"><a href="#"><img src="img/tiwtter.png" alt=""></a></li>
+                <li><a href="#"><img src="img/link.png" alt=""></a></li>
+            </ul>
+
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

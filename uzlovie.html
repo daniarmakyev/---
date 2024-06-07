@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navigation pt-4 pb-4">
+                <div class="container-fluid">
+                    <a class="navbar-brand font-weight-bold text-wrap" href="#"><img class="logo" src="./img/logo.png" alt="">Архитектура
+                        информационно-вычислительных
+                        сетей</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav main-nav d-flex flex-wrap">
+                            <li class="nav-item">
+                                <a class="nav-link active me-5" aria-current="page" href="./index.html">Главная</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active me-5" aria-current="page" href="./pageOne.html">Типы и Структуры</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active me-5" aria-current="page" href="#manualchik">Подсети</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                            </li>
+                        </ul>
+    
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="comunist">
+        <div class="container">
+            <h1>
+                Узловые подсети
+            </h1>
+            <p>
+               
+                Моноканальные и циклические сети имеют общие каналы, к которым подключаются все абонентские системы сети. Узловые сети
+                коренным образом отличаются от них, т. к. содержат множество
+                различных каналов, соединяющих узлы коммутации и абонентские
+                системы (рис. 13). Все используемые каналы делятся на две группы:
+                • магистральный – канал, соединяющий два узла;
+                • абонентский – канал, связывающий узел с абонентской системой.
+                Классическим примером узловой подсети является телефонная сеть общего пользования (ТФОП). Каналы в такой узловой
+                подсети могут быть аналоговыми либо дискретными. Аналоговые
+                каналы в настоящее время являются основным типом абонентских
+                каналов в телефонных сетях общего пользования, узлы коммутации которой (автоматические телефонные станции – АТС) соединяются между собой цифровыми магистральными каналами. В сетях мобильной радиотелефонной связи второго поколения и выше
+                уже и абонентские каналы, так же как и магистральные, являются
+                цифровыми. Узловой подсетью является и сеть Internet.
+                Пользователи узловой подсети не видят магистральных каналов, их интересуют в первую очередь абонентские, доступ к
+                которым производится в точках подключения посредством абонентского интерфейса. Число абонентских интерфейсов в точках соединения абонентских систем с подсетью определяет «интеллектуальность» подсети
+            </p>
+    
+            <img src="./img/photoEleven.PNG" alt="">
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <span class="float-start">© Realco by Minimal Square</span>
+            <ul class="list-unstyled d-inline-flex float-end">
+                <li class="me-3"><a href="#"><img src="img/facebook.png" alt=""></a></li>
+                <li class="me-3"><a href="#"><img src="img/insta.png" alt=""></a></li>
+                <li class="me-3"><a href="#"><img src="img/tiwtter.png" alt=""></a></li>
+                <li><a href="#"><img src="img/link.png" alt=""></a></li>
+            </ul>
+
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
